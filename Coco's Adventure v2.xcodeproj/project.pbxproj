@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7FB51421B329CAB00739A32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB51411B329CAB00739A32 /* AppDelegate.swift */; };
+		D7FB51441B329CAB00739A32 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D7FB51431B329CAB00739A32 /* GameScene.sks */; };
+		D7FB51461B329CAB00739A32 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB51451B329CAB00739A32 /* GameScene.swift */; };
+		D7FB51481B329CAB00739A32 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB51471B329CAB00739A32 /* GameViewController.swift */; };
+		D7FB514B1B329CAB00739A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FB51491B329CAB00739A32 /* Main.storyboard */; };
+		D7FB514D1B329CAB00739A32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FB514C1B329CAB00739A32 /* Images.xcassets */; };
+		D7FB51501B329CAB00739A32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7FB514E1B329CAB00739A32 /* LaunchScreen.xib */; };
+		D7FB515C1B329CAB00739A32 /* Coco_s_Adventure_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FB515B1B329CAB00739A32 /* Coco_s_Adventure_v2Tests.swift */; };
+		D7FB516E1B329D3D00739A32 /* beanbag.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FB516B1B329D3D00739A32 /* beanbag.png */; };
+		D7FB516F1B329D3D00739A32 /* blueRect.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FB516C1B329D3D00739A32 /* blueRect.png */; };
+		D7FB51701B329D3D00739A32 /* dogFace.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FB516D1B329D3D00739A32 /* dogFace.png */; };
+		D7FB51731B37BF1800739A32 /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FB51721B37BF1800739A32 /* spaceship.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7FB51561B329CAB00739A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7FB51341B329CAB00739A32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7FB513B1B329CAB00739A32;
+			remoteInfo = "Coco's Adventure v2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7FB513C1B329CAB00739A32 /* Coco's Adventure v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coco's Adventure v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FB51401B329CAB00739A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FB51411B329CAB00739A32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7FB51431B329CAB00739A32 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D7FB51451B329CAB00739A32 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D7FB51471B329CAB00739A32 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D7FB514A1B329CAB00739A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7FB514C1B329CAB00739A32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7FB514F1B329CAB00739A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D7FB51551B329CAB00739A32 /* Coco's Adventure v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coco's Adventure v2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FB515A1B329CAB00739A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FB515B1B329CAB00739A32 /* Coco_s_Adventure_v2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coco_s_Adventure_v2Tests.swift; sourceTree = "<group>"; };
+		D7FB516B1B329D3D00739A32 /* beanbag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beanbag.png; sourceTree = "<group>"; };
+		D7FB516C1B329D3D00739A32 /* blueRect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueRect.png; sourceTree = "<group>"; };
+		D7FB516D1B329D3D00739A32 /* dogFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dogFace.png; sourceTree = "<group>"; };
+		D7FB51721B37BF1800739A32 /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spaceship.png; path = Images.xcassets/Spaceship.imageset/spaceship.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7FB51391B329CAB00739A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FB51521B329CAB00739A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7FB51331B329CAB00739A32 = {
+			isa = PBXGroup;
+			children = (
+				D7FB513E1B329CAB00739A32 /* Coco's Adventure v2 */,
+				D7FB51581B329CAB00739A32 /* Coco's Adventure v2Tests */,
+				D7FB513D1B329CAB00739A32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7FB513D1B329CAB00739A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7FB513C1B329CAB00739A32 /* Coco's Adventure v2.app */,
+				D7FB51551B329CAB00739A32 /* Coco's Adventure v2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7FB513E1B329CAB00739A32 /* Coco's Adventure v2 */ = {
+			isa = PBXGroup;
+			children = (
+				D7FB51411B329CAB00739A32 /* AppDelegate.swift */,
+				D7FB51431B329CAB00739A32 /* GameScene.sks */,
+				D7FB51451B329CAB00739A32 /* GameScene.swift */,
+				D7FB51471B329CAB00739A32 /* GameViewController.swift */,
+				D7FB51491B329CAB00739A32 /* Main.storyboard */,
+				D7FB51711B329D4500739A32 /* Pictures */,
+				D7FB514C1B329CAB00739A32 /* Images.xcassets */,
+				D7FB514E1B329CAB00739A32 /* LaunchScreen.xib */,
+				D7FB513F1B329CAB00739A32 /* Supporting Files */,
+			);
+			path = "Coco's Adventure v2";
+			sourceTree = "<group>";
+		};
+		D7FB513F1B329CAB00739A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7FB51401B329CAB00739A32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7FB51581B329CAB00739A32 /* Coco's Adventure v2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D7FB515B1B329CAB00739A32 /* Coco_s_Adventure_v2Tests.swift */,
+				D7FB51591B329CAB00739A32 /* Supporting Files */,
+			);
+			path = "Coco's Adventure v2Tests";
+			sourceTree = "<group>";
+		};
+		D7FB51591B329CAB00739A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7FB515A1B329CAB00739A32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7FB51711B329D4500739A32 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				D7FB516B1B329D3D00739A32 /* beanbag.png */,
+				D7FB516C1B329D3D00739A32 /* blueRect.png */,
+				D7FB516D1B329D3D00739A32 /* dogFace.png */,
+				D7FB51721B37BF1800739A32 /* spaceship.png */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7FB513B1B329CAB00739A32 /* Coco's Adventure v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FB515F1B329CAB00739A32 /* Build configuration list for PBXNativeTarget "Coco's Adventure v2" */;
+			buildPhases = (
+				D7FB51381B329CAB00739A32 /* Sources */,
+				D7FB51391B329CAB00739A32 /* Frameworks */,
+				D7FB513A1B329CAB00739A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coco's Adventure v2";
+			productName = "Coco's Adventure v2";
+			productReference = D7FB513C1B329CAB00739A32 /* Coco's Adventure v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7FB51541B329CAB00739A32 /* Coco's Adventure v2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FB51621B329CAB00739A32 /* Build configuration list for PBXNativeTarget "Coco's Adventure v2Tests" */;
+			buildPhases = (
+				D7FB51511B329CAB00739A32 /* Sources */,
+				D7FB51521B329CAB00739A32 /* Frameworks */,
+				D7FB51531B329CAB00739A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7FB51571B329CAB00739A32 /* PBXTargetDependency */,
+			);
+			name = "Coco's Adventure v2Tests";
+			productName = "Coco's Adventure v2Tests";
+			productReference = D7FB51551B329CAB00739A32 /* Coco's Adventure v2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7FB51341B329CAB00739A32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kevin Cheng";
+				TargetAttributes = {
+					D7FB513B1B329CAB00739A32 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D7FB51541B329CAB00739A32 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D7FB513B1B329CAB00739A32;
+					};
+				};
+			};
+			buildConfigurationList = D7FB51371B329CAB00739A32 /* Build configuration list for PBXProject "Coco's Adventure v2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7FB51331B329CAB00739A32;
+			productRefGroup = D7FB513D1B329CAB00739A32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FB513B1B329CAB00739A32 /* Coco's Adventure v2 */,
+				D7FB51541B329CAB00739A32 /* Coco's Adventure v2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7FB513A1B329CAB00739A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FB51731B37BF1800739A32 /* spaceship.png in Resources */,
+				D7FB51501B329CAB00739A32 /* LaunchScreen.xib in Resources */,
+				D7FB514D1B329CAB00739A32 /* Images.xcassets in Resources */,
+				D7FB516E1B329D3D00739A32 /* beanbag.png in Resources */,
+				D7FB51701B329D3D00739A32 /* dogFace.png in Resources */,
+				D7FB51441B329CAB00739A32 /* GameScene.sks in Resources */,
+				D7FB514B1B329CAB00739A32 /* Main.storyboard in Resources */,
+				D7FB516F1B329D3D00739A32 /* blueRect.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FB51531B329CAB00739A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7FB51381B329CAB00739A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FB51461B329CAB00739A32 /* GameScene.swift in Sources */,
+				D7FB51481B329CAB00739A32 /* GameViewController.swift in Sources */,
+				D7FB51421B329CAB00739A32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FB51511B329CAB00739A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FB515C1B329CAB00739A32 /* Coco_s_Adventure_v2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7FB51571B329CAB00739A32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7FB513B1B329CAB00739A32 /* Coco's Adventure v2 */;
+			targetProxy = D7FB51561B329CAB00739A32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7FB51491B329CAB00739A32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FB514A1B329CAB00739A32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7FB514E1B329CAB00739A32 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FB514F1B329CAB00739A32 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7FB515D1B329CAB00739A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7FB515E1B329CAB00739A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7FB51601B329CAB00739A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coco's Adventure v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7FB51611B329CAB00739A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coco's Adventure v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7FB51631B329CAB00739A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Coco's Adventure v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coco's Adventure v2.app/Coco's Adventure v2";
+			};
+			name = Debug;
+		};
+		D7FB51641B329CAB00739A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Coco's Adventure v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coco's Adventure v2.app/Coco's Adventure v2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7FB51371B329CAB00739A32 /* Build configuration list for PBXProject "Coco's Adventure v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FB515D1B329CAB00739A32 /* Debug */,
+				D7FB515E1B329CAB00739A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FB515F1B329CAB00739A32 /* Build configuration list for PBXNativeTarget "Coco's Adventure v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FB51601B329CAB00739A32 /* Debug */,
+				D7FB51611B329CAB00739A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7FB51621B329CAB00739A32 /* Build configuration list for PBXNativeTarget "Coco's Adventure v2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FB51631B329CAB00739A32 /* Debug */,
+				D7FB51641B329CAB00739A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7FB51341B329CAB00739A32 /* Project object */;
+}
